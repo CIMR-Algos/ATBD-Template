@@ -1,0 +1,597 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>References &#8212; ATBD Template</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Annex" href="annex.html" />
+    <link rel="prev" title="Content with notebooks" href="notebooks.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">ATBD Template</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   ATBD Template
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="abstract.html">
+   Abstract
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="applicable_ref_docs.html">
+   Applicable and Reference Documents
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="acronyms.html">
+   Acronyms
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="definitions.html">
+   Definitions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="introduction_purpose_scope.html">
+   Introduction, purpose and scope
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="background_justification_algorithm.html">
+   Background and justification of selected algorithm
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="L2_product_definition.html">
+   Level-2 product definition
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="baseline_algorithm_definition.html">
+   Baseline Algorithm Definition
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="algorithm_input_output_data_definition.html">
+   Algorithm Input and Output Data Definition (IODD)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="algorithm_performance_assessment.html">
+   Algorithm Performance Assessment (Version 2 ATBD)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown-notebooks.html">
+   Notebook comments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks.html">
+   Python notebook placeholder
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   References (example)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="annex.html">
+   Annex
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/references.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CIMR-Algos/ATBD-Template"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>References</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="references">
+<h1>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h1>
+<p id="id1"><dl class="citation">
+<dt class="label" id="id8"><span class="brackets">1</span></dt>
+<dd><p>M. J. Brodzik, B. Billingsley, T. Haran, B. Raup, and M. H. Savoie. EASE-Grid 2.0: Incremental but Significant Improvements for Earth-Gridded Data Sets. <em>ISPRS International Journal of Geo-Information</em>, 1(1):32 – 45, 2012. \doi 10.3390/ijgi1010032.</p>
+</dd>
+<dt class="label" id="id2"><span class="brackets">2</span></dt>
+<dd><p>K. Aagaard and E. C. Carmack. The role of sea ice and other fresh water in the arctic circulation. <em>Journal of Geophysical Research</em>, 94(C10):14485–14498, 1989.</p>
+</dd>
+<dt class="label" id="id3"><span class="brackets">3</span></dt>
+<dd><p>Søren Andersen, Rasmus Tonboe, Steffen Kern, and Harald Schyberg. Improved retrieval of sea ice total concentration from spaceborne passive microwave observations using numerical weather prediction model fields: an intercomparison of nine algorithms. <em>Remote Sensing of Environment</em>, 104:374–392, 2006.</p>
+</dd>
+<dt class="label" id="id4"><span class="brackets">4</span></dt>
+<dd><p>M. Belmonte Rivas, I. Otosaka, A. Stoffelen, and A. Verhoef. A scatterometer record of sea ice extents and backscatter: 1992–2016. <em>The Cryosphere Discuss.</em>, 2018. \doi 10.5194/tc-2018-68, in review.</p>
+</dd>
+<dt class="label" id="id5"><span class="brackets">5</span></dt>
+<dd><p>Lars-Anders Breivik and H. Schyberg. Scatterometer data for saf sea ice products. <em>Proc. Joint ESA-Eumetsat Workshop on Emerging Scatterometer Applications –From Research to Operations</em>, October 1998.</p>
+</dd>
+<dt class="label" id="id6"><span class="brackets">6</span></dt>
+<dd><p>Lars-Anders Breivik, Steinar Eastwood, Ø. Godøy, H. Schyberg, S. Andersen, and R.T. Tonboe. Sea Ice Products for EUMETSAT Satellite Application Facility. <em>Canadian Journal of Remote Sensing</em>, 2001.</p>
+</dd>
+<dt class="label" id="id7"><span class="brackets">7</span></dt>
+<dd><p>Lars-Anders Breivik, S Eastwood, and T. Lavergne. Use of C-Band Scatterometer for Sea Ice Edge Identification. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 50(7):2669 – 2677, 2012.</p>
+</dd>
+<dt class="label" id="id9"><span class="brackets">8</span></dt>
+<dd><p>M. J. Brodzik, B. Billingsley, T. Haran, B. Raup, and M. H. Savoie. Correction: Brodzik, M. J. et al. EASE-Grid 2.0: Incremental but Significant Improvements for Earth-Gridded Data Sets. ISPRS International Journal of Geo-Information 2012, 1, 32-45. <em>ISPRS International Journal of Geo-Information</em>, 3(3):1154 – 1156, 2014. \doi 10.3390/ijgi3031154.</p>
+</dd>
+<dt class="label" id="id10"><span class="brackets">9</span></dt>
+<dd><p>A. Cavanie, F. Gohin, Y. Quilfen, and P. Lecomte. Identification of sea ice zones using the AMI-wind: physical bases and applications to the FDP and CERSAT processing chains. <em>In Proceedings of the Second ERS-1 Symposium : space at the service of our environment, 11-14 October 1993, Hamburg, Germany</em>, pages 1009 – 1012, 1993.</p>
+</dd>
+<dt class="label" id="id11"><span class="brackets">10</span></dt>
+<dd><p>J.C Comiso. Sea ice effective microwave estimates from satellite passive microwave and infrared observations. <em>Journal of Geophysical Research</em>, 88(C12):7686 – 7704, 1983.</p>
+</dd>
+<dt class="label" id="id12"><span class="brackets">11</span></dt>
+<dd><p>Josefino C. Comiso. Large decadal decline of the Arctic multiyear ice cover. <em>Journal of Climate</em>, 25:1176 – 1193, 2011.</p>
+</dd>
+<dt class="label" id="id13"><span class="brackets">12</span></dt>
+<dd><p>D. J. Cavalieri, J. Crawford, M. Drinkwater, W. J. Emery, D. T. Eppler, L. D. Farmer, M. Goodberlet, R. Jentz, A. Milman, C. Morris, R. Onstott, A. Schweiger, R. Shuchman, K. Steffen, C. T. Swift, C. Wackerman, and R. L. Weaver. NASA sea ice validation program for the DMSP SSM/I: final report. <em>NASA Technical Memorandum 104559. National Aeronautics and Space Administration, Washington, D.C.</em>, 1992. 126 pages.</p>
+</dd>
+<dt class="label" id="id14"><span class="brackets">13</span></dt>
+<dd><p>D.J. Cavalieri, K.M. St. Germain, and C.T. Swift. Reduction of weather effects in the calculation of sea-ice concentration with the DMSP SSM/I. <em>Journal of Glaciology</em>, 41(139):455 – 464, 1995.</p>
+</dd>
+<dt class="label" id="id15"><span class="brackets">14</span></dt>
+<dd><p>D. P. Dee, S. M. Uppala, A. J. Simmons, P. Berrisford, P. Poli, S. Kobayashi, U. Andrae, M. A. Balmaseda, G. Balsamo, P. Bauer, P. Bechtold, A. Beljaars, L. van de Berg, J. Bidlot, N. Bormann, C. Delsol, R. Dragani, M. Fuentes, A. J. Geer, L. Haimberger, S. B. Healy, H. Hersbach E. V. Hólm, L. Isaksen, P. Kallberg, M. Köhler, M. Matricardi, A. P. McNally, B. M. Monge-Sanz, J. J. Morcrette, B. K. Park, C. Peubey, P. de Rosnay, C. Tavolato, J. N. Thepaut, and F. Vitart. The ERA-Interim reanalysis: configuration and performance of the data assimilation system. <em>Q. J. Roy. Meteorol. Soc.</em>, 137:553 – 597, 2011. \doi 10.1002/qj.828.</p>
+</dd>
+<dt class="label" id="id16"><span class="brackets">15</span></dt>
+<dd><p>J. Figa-Saldaña, J.J.W. Wilson, E. Attema, R. Gelsthorpe, M.R. Drinkwater, and A. Stoffelen. The advanced scatterometer (ASCAT) on the meteorological operational (MetOp) platform: A follow on for European wind scatterometers. <em>Canadian Journal of Remote Sensing</em>, 28(3):404 – 412, 2002.</p>
+</dd>
+<dt class="label" id="id17"><span class="brackets">16</span></dt>
+<dd><p>Franco Fois, Peter Hoogeboom, Françoi Le Chevalier, and Ad Stoffelen. Future ocean scatterometry: on the use of cross-polar scattering to observe very high winds. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 2015.</p>
+</dd>
+<dt class="label" id="id18"><span class="brackets">17</span></dt>
+<dd><p>C. Fowler and W. J. Emery. Satellite-derived evolution of Arctic sea ice age: October 1978 to March 2003. <em>IEEE Geoscience and Remote Sensing Letters</em>, 1(2):71 – 74, 2004.</p>
+</dd>
+<dt class="label" id="id19"><span class="brackets">18</span></dt>
+<dd><p>Katharine A. Giles, Seymour W. Laxon, and Andy L. Ridout. Circumpolar thinning of Arctic sea ice following the 2007 record ice extent minimum. <em>Geophysical Research Letters</em>, 2008.</p>
+</dd>
+<dt class="label" id="id20"><span class="brackets">19</span></dt>
+<dd><p>P. Gloersen and F. T. Barath. A scanning multichannel microwave radiometer for Nimbus-G and SeaSat-A. <em>IEEE Journal of Oceanic Engineering</em>, OE-2(2):172 – 178, 1977.</p>
+</dd>
+<dt class="label" id="id21"><span class="brackets">20</span></dt>
+<dd><p>P. Gloersen and D. J. Cavalieri. Reduction of weather effects in the calculation of sea ice concentration from microwave radiances. <em>Journal of Geophysical Research</em>, 91(C3):3913 – 3919, 1986. \doi 10.1029/JC091iC03p03913.</p>
+</dd>
+<dt class="label" id="id22"><span class="brackets">21</span></dt>
+<dd><p>P. Gloersen, W. J. Campbell, D. J. Cavalieri, J. C. Comiso, C. L. Parkinson, and H. J. Zwally. Arctic and Antarctic sea ice, 1978-1987: satellite passive-microwave observations and analysis. <em>NASA SP-511, Washington D. C.</em>, 1992.</p>
+</dd>
+<dt class="label" id="id23"><span class="brackets">22</span></dt>
+<dd><p>F. Gohin and A. Cavanié. A first try at identification of sea ice using the three beam scatterometer of ers-1. <em>International Journal of Remote Sensing</em>, 15(6):1221 – 1228, 1994.</p>
+</dd>
+<dt class="label" id="id24"><span class="brackets">23</span></dt>
+<dd><p>Jörg Haarpaintner, Rasmus Tonboe, David G. Long, and Michael L. Van Woert. Automatic detection and validity of the sea-ice edge: an application of enhanced-resolution QuikScat/Sea Winds data. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 2004.</p>
+</dd>
+<dt class="label" id="id25"><span class="brackets">24</span></dt>
+<dd><p>Hans Hersbach, Bill Bell, Paul Berrisford, Shoji Hirahara, András Horányi, Joaquín Muñoz-Sabater, Julien Nicolas, Carole Peubey, Raluca Radu, Dinand Schepers, Adrian Simmons, Cornel Soci, Saleh Abdalla, Xavier Abellan, Gianpaolo Balsamo, Peter Bechtold, Gionata Biavati, Jean Bidlot, Massimo Bonavita, Giovanna De Chiara, Per Dahlgren, Dick Dee, Michail Diamantakis, Rossana Dragani, Johannes Flemming, Richard Forbes, Manuel Fuentes, Alan Geer, Leo Haimberger, Sean Healy, Robin J. Hogan, Elías Hólm, Marta Janisková, Sarah Keeley, Patrick Laloyaux, Philippe Lopez, Cristina Lupu, Gabor Radnoti, Patricia de Rosnay, Iryna Rozum, Freja Vamborg, Sebastien Villaume, and Jean-Noël Thépaut. The ERA5 global reanalysis. <em>Quarterly Journal of the Royal Meteorological Society</em>, 146(730):1999–2049, 2020. \doi https://doi.org/10.1002/qj.3803. URL: <a class="reference external" href="https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.3803">https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.3803</a>, <a class="reference external" href="https://arxiv.org/abs/https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1002/qj.3803">arXiv:https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1002/qj.3803</a>, <a class="reference external" href="https://doi.org/https://doi.org/10.1002/qj.3803">doi:https://doi.org/10.1002/qj.3803</a>.</p>
+</dd>
+<dt class="label" id="id26"><span class="brackets">25</span></dt>
+<dd><p>Will Hobbs, Rob Massom, S. Stammerjohn, Phil Reid, Guy Williams, and W. Meier. A review of recent changes in southern ocean sea ice, their drivers and forcings. <em>Global and Planetary Change</em>, 143:, 06 2016. <a class="reference external" href="https://doi.org/10.1016/j.gloplacha.2016.06.008">doi:10.1016/j.gloplacha.2016.06.008</a>.</p>
+</dd>
+<dt class="label" id="id27"><span class="brackets">26</span></dt>
+<dd><p>P. E. Isachsen, M. Drivdal, S. Eastwood, Y. Gusdal, G. Noer, and Ø. Saetra. Observations of the ocean response to cold air outbreaks and polar lows over the Nordic Seas. <em>Geophysical Research Letters</em>, 40:3667 – 3671, 2013.</p>
+</dd>
+<dt class="label" id="id28"><span class="brackets">27</span></dt>
+<dd><p>N. Ivanova, L. T. Pedersen, R. T. Tonboe, S. Kern, G. Heygster, T. Lavergne, A. Sørensen, R. Saldo, G. Dybkjær, L. Brucker, and M. Shokr. Inter-comparison and evaluation of sea ice algorithms: towards further identification of challenges and optimal approach using passive microwave observations. <em>The Cryosphere</em>, pages 1797 – 1817, 2015. \doi 10.5194/tc-9-1797-2015.</p>
+</dd>
+<dt class="label" id="id29"><span class="brackets">28</span></dt>
+<dd><p>S. Kern. A new method for medium-resolution sea ice analysis using weather-influence corrected Special Sensor Microwave/Imager 85 GHz data. <em>International Journal of Remote Sensing</em>, 25(21):4555 – 4582, 2004.</p>
+</dd>
+<dt class="label" id="id30"><span class="brackets">29</span></dt>
+<dd><p>Noriaki Kimura, Kazutaka Tateyama, Kazutoshi Sato, Richard A. Krishfield, and Hajime Yamaguchi. Unusual drift behaviour of multi-year sea ice in the Beaufort Sea during summer 2018. <em>Polar Research</em>, Oct. 2020. URL: <a class="reference external" href="https://polarresearch.net/index.php/polar/article/view/3617">https://polarresearch.net/index.php/polar/article/view/3617</a>, <a class="reference external" href="https://doi.org/10.33265/polar.v39.3617">doi:10.33265/polar.v39.3617</a>.</p>
+</dd>
+<dt class="label" id="id31"><span class="brackets">30</span></dt>
+<dd><p>A. A. Korosov, P. Rampal, L. T. Pedersen, R. Saldo, Y. Ye, G. Heygster, T. Lavergne, S. Aaboe, and F. Girard-Ardhuin. A new tracking algorithm for sea ice age distribution estimation. <em>The Cryosphere</em>, 12(6):2073–2085, 2018. URL: <a class="reference external" href="https://www.the-cryosphere.net/12/2073/2018/">https://www.the-cryosphere.net/12/2073/2018/</a>, <a class="reference external" href="https://doi.org/10.5194/tc-12-2073-2018">doi:10.5194/tc-12-2073-2018</a>.</p>
+</dd>
+<dt class="label" id="id32"><span class="brackets">31</span></dt>
+<dd><p>Seymour W. Laxon, Katharine A. Giles, Andy L. Ridout, Duncan J. Wingham, Rosemary Willatt, Robert Cullen, Ron Kwok, Axel Schweiger, Jinlun Zhang, Christian Haas, Stefan Hendricks, Richard Krishfield, Nathan Kurtz, Sinead Farrell, and Malcolm Davidson. CryoSat-2 estimates of Arctic sea ice thickness and volume. <em>Geophysical Research Letters</em>, 2013.</p>
+</dd>
+<dt class="label" id="id33"><span class="brackets">32</span></dt>
+<dd><p>Thomas Lavergne, Atle M. Sørensen, Stefan Kern, Rasmus Tonboe, Dirk Notz, Signe Aaboe, Louisa Bell, G Dybkjaer, Steinar Eastwood, C Gabarro, Georg Heygster, Mari Anne Killie, Matilde Brandt Kreiner, John Lavelle, Roberto Saldo, Stein Sandven, and Leif Pedersen. Version 2 of the EUMETSAT OSI SAF and ESA CCI Sea Ice Concentration Climate Data Records. <em>The Cryosphere</em>, 13:49–78, 2019. \doi 10.5194/tc-13-49-2019.</p>
+</dd>
+<dt class="label" id="id34"><span class="brackets">33</span></dt>
+<dd><p>Nina Maaß and Lars Kaleschke. Improving passive microwave sea ice concentration algorithms for coastal areas: applications to the Baltic Sea. <em>Tellus A</em>, 62:393 – 410, 2010. \doi 10.1111/j.1600-0870.2010.00452.x.</p>
+</dd>
+<dt class="label" id="id35"><span class="brackets">34</span></dt>
+<dd><p>W. N. Meier, F. Fetterer, M. Savoie, S. Mallory, R. Duerr, and J. Stroeve. NOAA/NSIDC Climate Data Record of Passive Microwave Sea Ice Concentration, Version 3. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center, 2017. \doi https://doi.org/10.7265/N59P2ZTG.</p>
+</dd>
+<dt class="label" id="id36"><span class="brackets">35</span></dt>
+<dd><p>S.V. Nghiem, I.G. Rigor, P. Clemente-Colón, G. Neumann, and P.P. Li. Geophysical constraints on the Antarctic sea ice cover. <em>Remote Sensing of Environment</em>, 181:281–292, 08 2016. \doi 10.1016/j.rse.2016.04.005.</p>
+</dd>
+<dt class="label" id="id37"><span class="brackets">36</span></dt>
+<dd><p>Claire L. Parkinson. A 40-y record reveals gradual Antarctic sea ice increases followed by decreases at rates far exceeding the rates seen in the Arctic. <em>Proceedings of the National Academy of Sciences</em>, 116(29):14414–14423, 2019. \doi 10.1073/pnas.1906556116. URL: <a class="reference external" href="https://www.pnas.org/content/116/29/14414">https://www.pnas.org/content/116/29/14414</a>, <a class="reference external" href="https://arxiv.org/abs/https://www.pnas.org/content/116/29/14414.full.pdf">arXiv:https://www.pnas.org/content/116/29/14414.full.pdf</a>, <a class="reference external" href="https://doi.org/10.1073/pnas.1906556116">doi:10.1073/pnas.1906556116</a>.</p>
+</dd>
+<dt class="label" id="id38"><span class="brackets">37</span></dt>
+<dd><p>G. Peng, W. N. Meier, D. J. Scott, and M. H. Savoie. A long-term and reproducible passive microwave sea ice concentration data record for climate studies and monitoring. <em>Earth System Science Data</em>, 5(2):311–318, 2013. \doi 10.5194/essd-5-311-2013. URL: <a class="reference external" href="https://essd.copernicus.org/articles/5/311/2013/">https://essd.copernicus.org/articles/5/311/2013/</a>, <a class="reference external" href="https://doi.org/10.5194/essd-5-311-2013">doi:10.5194/essd-5-311-2013</a>.</p>
+</dd>
+<dt class="label" id="id39"><span class="brackets">38</span></dt>
+<dd><p>Quinn Remund, David Long, and Mark Drinkwater. An iterative approach to multisensor sea ice classification. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 38:1843 – 1856, 08 2000. \doi 10.1109/36.851768.</p>
+</dd>
+<dt class="label" id="id40"><span class="brackets">39</span></dt>
+<dd><p>K. Steffen, D.J. Cavalieri, J.C. Comiso, K. St. Germain, P. Gloersen, J. Key, and I. Rubinstein. The estimation of geophysical parameters using passive microwave algorithms. In Frank Carsey, editor, <em>Microwave remote sensing of sea ice.</em>, chapter 10, pages 243 – 259. American Geophysical Union. Washington, D. C., 1992.</p>
+</dd>
+<dt class="label" id="id41"><span class="brackets">40</span></dt>
+<dd><p>A. Stoffelen, S. Aaboe, J. Calvet, J. Cotton, G. De Chiara, J. F. Saldaña, A. A. Mouche, M. Portabella, K. Scipal, and W. Wagner. Scientific Developments and the EPS-SG Scatterometer. <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 10(5):2086–2097, May 2017. \doi 10.1109/JSTARS.2017.2696424.</p>
+</dd>
+<dt class="label" id="id42"><span class="brackets">41</span></dt>
+<dd><p>R. T. Tonboe, S. Eastwood, T. Lavergne, A. M. Sørensen, N. Rathmann, G. Dybkjær, L. T. Pedersen, J. L. Høyer, and S. Kern. The EUMETSAT sea ice concentration climate data record. <em>The Cryosphere</em>, 10(5):2275–2290, 2016. URL: <a class="reference external" href="https://www.the-cryosphere.net/10/2275/2016/">https://www.the-cryosphere.net/10/2275/2016/</a>, <a class="reference external" href="https://doi.org/10.5194/tc-10-2275-2016">doi:10.5194/tc-10-2275-2016</a>.</p>
+</dd>
+<dt class="label" id="id43"><span class="brackets">42</span></dt>
+<dd><p>Yufang Ye, Georg Heygster, and Mohammed Shokr. Improving multiyear ice concentration estimates with reanalysis air temperatures. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 54:2602 – 2614, 2016. \doi 10.1109/TGRS.2015.2503884.</p>
+</dd>
+<dt class="label" id="id44"><span class="brackets">43</span></dt>
+<dd><p>Yufang Ye, Mohammed Shokr, Georg Heygster, and Gunnar Spreen. Improving multiyear sea ice concentration estimates with sea ice drift. <em>Remote Sensing</em>, 2016.</p>
+</dd>
+<dt class="label" id="id45"><span class="brackets">44</span></dt>
+<dd><p>F. J. Wentz. A model function for ocean microwave brightness temperatures. <em>Journal of Geophysical Research</em>, 88(C3):1892 – 1908, 1983.</p>
+</dd>
+<dt class="label" id="id46"><span class="brackets">45</span></dt>
+<dd><p>F. J. Wentz. A well-calibrated ocean algorithm for SSM/I. <em>Journal of Geophysical Research</em>, 102(C4):8703 – 8718, 1997.</p>
+</dd>
+<dt class="label" id="id47"><span class="brackets">46</span></dt>
+<dd><p>B. Helland-Hansen and F. Nansen. The Norwegain Sea - its physical oceanography based upon the Norwegian reasearches 1900-1904. In Hjort J, editor, <em>Report on Norwegian fishery and marine investigations</em>, volume II, pages 1–360. The royal department of trade, navigation and industries, 1909.</p>
+</dd>
+<dt class="label" id="id48"><span class="brackets">47</span></dt>
+<dd><p>J. Vogelzang, A. Stoffelen, A. Verhoef, and J. Figa-Saldaña. On the quality of high-resolution scatterometer winds. <em>Journal of Geophysical Research</em>, 2011.</p>
+</dd>
+<dt class="label" id="id49"><span class="brackets">48</span></dt>
+<dd><p><a class="reference external" href="http://www.reportingclimatescience.com/news-stories/article/nsidc-reports-multiyear-arctic-sea-ice-growth.html">http://www.reportingclimatescience.com/news-stories/article/nsidc-reports-multiyear-arctic-sea-ice-growth.html</a>, 03.04. 2014.</p>
+</dd>
+<dt class="label" id="id50"><span class="brackets">49</span></dt>
+<dd><p><a class="reference external" href="http://www.reportingclimatescience.com/news-stories/article/latest-data-shows-arctic-ice-volume-has-increased.htm">http://www.reportingclimatescience.com/news-stories/article/latest-data-shows-arctic-ice-volume-has-increased.htm</a>, 05.02. 2014.</p>
+</dd>
+<dt class="label" id="id51"><span class="brackets">50</span></dt>
+<dd><p>K. Fennig, M. Schroder, R. Hollmann, and M. Werschech. Fundamental Climate Data Record of SMMR/SSMI/SSMIS Brightness Temperatures Algorithm Theoretical Basis Document. Technical Report, EUMETSAT OSI SAF – Satellite Application Facility on Climate Monitoring, 2015. <a class="reference external" href="http://www.cmsaf.eu/EN/Documentation/Documentation/Documentation_node.html">http://www.cmsaf.eu/EN/Documentation/Documentation/Documentation_node.html</a>.</p>
+</dd>
+<dt class="label" id="id52"><span class="brackets">51</span></dt>
+<dd><p>Wmo sea ice nomenclature, supplement no. 4 (wmo - no. 259). <a class="reference external" href="https://www.jcomm.info/index.php?option=com_oe&amp;task=viewDocumentRecord&amp;docID=14598">https://www.jcomm.info/index.php?option=com_oe&amp;task=viewDocumentRecord&amp;docID=14598</a>, March 2014. 5th Session of JCOMM Expert Team on Sea Ice.</p>
+</dd>
+<dt class="label" id="id53"><span class="brackets">52</span></dt>
+<dd><p>Signe Aaboe, Atle Sørensen, Thomas Lavergne, and Steinar Eastwood. Sea Ice Edge and Sea Ice Type Climate Data Records, Algorithm Theoretical Basis Document – v2. Technical Report C3S_D312a_Lot1.2.2.5-v2_201805_atbd_sea-ice-edge-type, ECMWF Copernicus Climate Change Service, May 2018.</p>
+</dd>
+<dt class="label" id="id54"><span class="brackets">53</span></dt>
+<dd><p>Signe Aaboe, Atle Sørensen, Thomas Lavergne, and Steinar Eastwood. Sea Ice Edge and Sea Ice Type Climate Data Records, Product User Guide and Specification – v1. Technical Report C3S_D312a_Lot1.3.2.3-v1_201805_pugs_sea-ice-edge-type, ECMWF Copernicus Climate Change Service, May 2018.</p>
+</dd>
+<dt class="label" id="id55"><span class="brackets">54</span></dt>
+<dd><p>Cooperation on assessing the impact of different sigma0 re-sampling on OSI SAF sea ice products using ASCAT data – v2.0. 2015. OSI SAF/CAF.</p>
+</dd>
+<dt class="label" id="id56"><span class="brackets">55</span></dt>
+<dd><p>S. Aaboe and T. Lavergne. Cooperation on assessing the impact of different sigma0 re-sampling on OSI SAF sea ice products using ASCAT data. EUMETSAT, March 2016. Final report of FA CAF_OSI_15_01.</p>
+</dd>
+<dt class="label" id="id57"><span class="brackets">56</span></dt>
+<dd><p>S. Hahn, A. Plocon, S. Hasenauer, A. Verhoef, A. Stoffelen, J. Figa-Saldaña, and C. Anderson. Effects on level 2 soil moisture using level 1b sigma0 re-sampled with a circular top-hat window and exploration of the level 1b full-resolution sigma0 product. EUMETSAT, December 2014. Final report of FA 2014-1.</p>
+</dd>
+<dt class="label" id="id58"><span class="brackets">57</span></dt>
+<dd><p>M. Portabella, A. Verhoef, and A. Stoffelen. ASCAT coastal AWDP prototype. EUMETSAT, 2008. NWPSAF-KN-VS-007.</p>
+</dd>
+<dt class="label" id="id59"><span class="brackets">58</span></dt>
+<dd><p>J. Vogelzang and A. Stoffelen. Validation of ASCAT coastal winds, v1.5. EUMETSAT, 2013. SAF/OSI/CDOP/KNMI/TEC/RP/176.</p>
+</dd>
+<dt class="label" id="id60"><span class="brackets">59</span></dt>
+<dd><p>EUM/OPS-EPS/MAN/04/0028, issue v5B. Available at: <a class="reference external" href="http://www.eumetsat.int">http://www.eumetsat.int</a>, January 2017.</p>
+</dd>
+<dt class="label" id="id61"><span class="brackets">60</span></dt>
+<dd><p>EUM/OPS-EPS/MAN/04/0028, issue v5. Available at: <a class="reference external" href="http://www.eumetsat.int">http://www.eumetsat.int</a>, July 2015.</p>
+</dd>
+<dt class="label" id="id62"><span class="brackets">61</span></dt>
+<dd><p>Signe Aaboe, Emily Jane Down, and Steinar Eastwood. Global Sea Ice Edge (OSI-402-d) and Type (OSI-403-d) Algorithm Theoretical Basis Document – v3.3. Technical Report SAF/OSI/CDOP3/MET-Norway/SCI/MA/379, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, February 2021. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id63"><span class="brackets">62</span></dt>
+<dd><p>Signe Aaboe, Emily Jane Down, Lars-Anders Breivik, and Steinar Eastwood. Global Sea Ice Edge (OSI-402-d) and Type (OSI-403-d) Algorithm Theoretical Basis Document – v3.0. Technical Report SAF/OSI/CDOP3/MET-Norway/SCI/MA/???, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, December 2019. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id64"><span class="brackets">63</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, and Steinar Eastwood. Global Sea Ice Edge (OSI-402-c) and Type (OSI-403-c) Algorithm Theoretical Basis Document – v2.2. Technical Report SAF/OSI/CDOP2/MET-Norway/SCI/MA/208, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, May 2016. <a class="reference external" href="http://osisaf.met.no/docs/osisaf_cdop2_ss2_atbd_sea-ice-edge-type_v2p2.pdf">http://osisaf.met.no/docs/osisaf_cdop2_ss2_atbd_sea-ice-edge-type_v2p2.pdf</a>.</p>
+</dd>
+<dt class="label" id="id65"><span class="brackets">64</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, and Steinar Eastwood. Algorithm Theoretical Basis Document for the OSI SAF Global Sea Ice Edge (OSI-402-b) and Type (OSI-403-b) product – v1.2. Technical Report SAF/OSI/CDOP2/MET-Norway/SCI/MA/208, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, April 2015. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id66"><span class="brackets">65</span></dt>
+<dd><p>Thomas Lavergne. Algorithm Theoretical Basis Document for the OSI SAF low resolution sea ice drift product – v1.1. Technical Report SAF/OSI/CDOP/met.no/SCI/MA/130, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, April 2015. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id67"><span class="brackets">66</span></dt>
+<dd><p>Rasmus Tonboe and John Lavelle. The EUMETSAT OSI SAF Sea Ice Concentration Algorithm (OSI-401-b) – Algorithm Theoretical Basis Document – v1.4. Technical Report SAF/OSI/CDOP2/DMI/SCI/MA/189, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, July 2015. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id68"><span class="brackets">67</span></dt>
+<dd><p>Signe Aaboe, Emily Jane Down, and Steinar Eastwood. Global Sea Ice Edge (OSI-402-d) and Type (OSI-403-d) Product User's Manual – v3.1. Technical Report SAF/OSI/CDOP3/MET-Norway/TEC/MA/205, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, February 2021. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id69"><span class="brackets">68</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, Steinar Eastwood, and Thomas Lavergne. Global Sea Ice Edge (OSI-402-c) and Type (OSI-403-c) Product User's Manual – v2.3. Technical Report SAF/OSI/CDOP2/MET-Norway/TEC/MA/205, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, May 2018. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id70"><span class="brackets">69</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, Steinar Eastwood, and Thomas Lavergne. Global Sea Ice Edge and Type Product User's Manual – v2.2. Technical Report SAF/OSI/CDOP2/MET-Norway/TEC/MA/205, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, September 2017. <a class="reference external" href="http://osisaf.met.no/docs/osisaf_cdop3_ss2_pum_sea-ice-edge-type_v2p2.pdf">http://osisaf.met.no/docs/osisaf_cdop3_ss2_pum_sea-ice-edge-type_v2p2.pdf</a>.</p>
+</dd>
+<dt class="label" id="id71"><span class="brackets">70</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, Steinar Eastwood, and Thomas Lavergne. Global Sea Ice Edge (OSI-402-c) and Type (OSI-403-c) Product User's Manual – v2.2. Technical Report SAF/OSI/CDOP2/MET-Norway/TEC/MA/205, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, September 2017. <a class="reference external" href="http://osisaf.met.no/docs/osisaf_cdop3_ss2_pum_sea-ice-edge-type_v2p2.pdf">http://osisaf.met.no/docs/osisaf_cdop3_ss2_pum_sea-ice-edge-type_v2p2.pdf</a>.</p>
+</dd>
+<dt class="label" id="id72"><span class="brackets">71</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, Steinar Eastwood, and Thomas Lavergne. Global Sea Ice Edge (OSI-402-c) and Type (OSI-403-c) Product User's Manual – v2.1. Technical Report SAF/OSI/CDOP2/MET-Norway/TEC/MA/205, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, May 2016. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id73"><span class="brackets">72</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, Steinar Eastwood, and Thomas Lavergne. Product User's Manual for the OSI SAF Global Sea Ice Edge (OSI-402-b) and Type (OSI-403-b) product – v1.3. EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, April 2016. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id74"><span class="brackets">73</span></dt>
+<dd><p>Signe Aaboe, Emily Jane Down, and Steinar Eastwood. Validation Report for the Global \sie  (OSI-402-d) and Type (OSI-403-d) – v3.1. Technical Report SAF/OSI/CDOP3/MET-Norway/SCI/RP/224, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, January 2021. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id75"><span class="brackets">74</span></dt>
+<dd><p>Signe Aaboe, Emily Jane Down, and Steinar Eastwood. Validation Report for the Global \sie  (OSI-402-c) and Type (OSI-403-c) – v3.0. Technical Report SAF/OSI/CDOP3/MET-Norway/SCI/RP/224, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, November 2020. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id76"><span class="brackets">75</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, and Steinar Eastwood. Global Sea Ice Edge (OSI-402-c) and Type (OSI-403-c) Validation Report – v2.0. Technical Report SAF/OSI/CDOP2/MET-Norway/SCI/RP/224, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, May 2016. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id77"><span class="brackets">76</span></dt>
+<dd><p>Signe Aaboe, Lars-Anders Breivik, Atle Sørensen, and Steinar Eastwood. Global Sea Ice Edge and Type; Validation Report – v1.1. Technical Report SAF/OSI/CDOP2/MET-Norway/SCI/RP/224, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, April 2015. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id78"><span class="brackets">77</span></dt>
+<dd><p>Signe Aaboe, Steinar Eastwood, Thomas Lavergne, Esben Nielsen, and Rasmus Tonboe. Validation of change from SSMI/I to SSMIS for Global Sea Ice products – v1.1. Technical Report SAF/OSI/CDOP2/MET-Norway/TEC/RP/207, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, December 2013. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id79"><span class="brackets">78</span></dt>
+<dd><p>Søren Andersen. Monthly Arctic sea ice signatures for use in passive microwave algorithms. December 1998. DMI Technical Report 98-18, Danish Meteorological Institute. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id80"><span class="brackets">79</span></dt>
+<dd><p>Søren Andersen. Evaluation of SSM/I sea ice algorithms for use in the SAF on Ocean and Sea Ice. July 2000. DMI Scientific Report 00-01, Danish Meteorological Institute. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id81"><span class="brackets">80</span></dt>
+<dd><p>Rasmus Tonboe, Søren Andersen, and Leif Toudal. Anomalous winter sea ice backscatter and brightness temperatures. September 2003. DMI Scientific Report 03-13, Danish Meteorological Institute. <a class="reference external" href="https://www.dmi.dk/fileadmin/Rapporter/SR/sr03-13.pdf">https://www.dmi.dk/fileadmin/Rapporter/SR/sr03-13.pdf</a>.</p>
+</dd>
+<dt class="label" id="id82"><span class="brackets">81</span></dt>
+<dd><p>Lars-Anders Breivik and Steinar Eastwood. Upgrade of the OSI SAF Sea Ice Edge and Sea Ice Type products – Introduction of ASCAT. Technical Report, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, September 2009. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id83"><span class="brackets">82</span></dt>
+<dd><p>Steinar Eastwood, Kristian Rune Larsen, Thomas Lavergne, Esben Nielsen, and Rasmus Tonboe. Product User's Manual for the Global Sea Ice Concentraion Reprocessing – v1.3. EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, October 2011. \urlOSISAFmainDocs .</p>
+</dd>
+<dt class="label" id="id84"><span class="brackets">83</span></dt>
+<dd><p>OSI SAF project team. OSI SAF CDOP-2 Product Requirement Document. Technical Report v3.0, DMI, IFREMER, KNMI, Météo-France and MET Norway, 2015. <a class="reference external" href="http://www.osi-saf.org/">http://www.osi-saf.org/</a>.</p>
+</dd>
+<dt class="label" id="id85"><span class="brackets">84</span></dt>
+<dd><p>OSI SAF project team. OSI SAF CDOP-2 Product Requirement Document. Technical Report v3.7, DMI, IFREMER, KNMI, Météo-France and MET Norway, November 2016. <a class="reference external" href="http://www.osi-saf.org/">http://www.osi-saf.org/</a>.</p>
+</dd>
+<dt class="label" id="id86"><span class="brackets">85</span></dt>
+<dd><p>OSI SAF project team. OSI SAF CDOP-2 Service Specification Document – v2.8. EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, May 2016. SAF/OSI/CDOP2/M-F/MGT/PL/2-003. <a class="reference external" href="http://www.osi-saf.org/">http://www.osi-saf.org/</a>.</p>
+</dd>
+<dt class="label" id="id87"><span class="brackets">86</span></dt>
+<dd><p>OSI SAF project team. OSI SAF CDOP-2 Service Specification Document – v2.3. EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, November 2014. SAF/OSI/CDOP2/M-F/MGT/PL/2-003. <a class="reference external" href="http://www.osi-saf.org/">http://www.osi-saf.org/</a>.</p>
+</dd>
+<dt class="label" id="id88"><span class="brackets">87</span></dt>
+<dd><p>OSI SAF project team. OSI SAF CDOP-2 Half-Yearly Operations Report - 2nd half 2015 – v1.0. Technical Report SAF/OSI/CDOP2/M-F/TEC/RP/336, EUMETSAT OSI SAF – Ocean and Sea Ice Satellite Application Facility, February 2016. <a class="reference external" href="http://www.osi-saf.org/">http://www.osi-saf.org/</a>.</p>
+</dd>
+</dl>
+</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="notebooks.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Content with notebooks</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="annex.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Annex</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By CIMR Devalgo<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
