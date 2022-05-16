@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: abstract
+  title: Abstract
+- file: applicable_ref_docs
+  title: Applicable and Reference Documents
+- file: acronyms
+  title: Acronyms
+- file: definitions
+  title: Definitions
+- file: introduction_purpose_scope
+  title: Introduction, purpose and scope
+- file: background_justification_algorithm
+  title: Background and justification of selected algorithm
+- file: L2_product_definition
+  title: Level-2 product definition
+- file: baseline_algorithm_definition
+  title: Baseline Algorithm Definition
+- file: algorithm_input_output_data_definition
+  title: Algorithm Input and Output Data Definition (IODD)
+- file: algorithm_performance_assessment
+  title: Algorithm Performance Assessment 
+- file: markdown-notebooks
+  title: Notebook comments
+- file: notebooks
+  title: Python notebook placeholder
+- file: references
+  title: References (example)
+- file: annex
+  title: Annex
+
