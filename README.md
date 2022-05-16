@@ -1,4 +1,4 @@
-# ATBD-Template
+# ATBD Template
 A JupyterBook template for CIMR DEVALGO ATBDs
 
 ## Fetch and read the book
@@ -9,10 +9,17 @@ git clone <repo>
 ```
 In your web browser load `file:///PATH/book/_build/html/intro.html` in the url field.
 
+## Creating a new repo from the template
+The `ATBD-Template` repo is a _template repository_. It can be used to create a new repo for your L2 book as a copy of the `ATBD-Template` repo,
+directly with the right structure and with initial file content. You can then work on your L2 book repo, this will not change the
+`ATBD-Template` repository.
+
+Follow these instructions to create a new repo from the template repo: [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
 ## Structure of the repo
 * Each L2 variable has its own GitHub repository, referenced from the [CIMR-Algos](https://github.com/CIMR-Algos) organization.
 * In the repo we have (at least) 3 directories: `book/` (for the book itself), `algorithm` (for the software), `data` (for static data).
-* Convention: the main branch is called `main` (not `master`). `git config --global init.defaultBranch main`. Here is [why](https://github.com/github/renaming). 
+* Convention: the main branch is called `main` (not `master`). `git config --global init.defaultBranch main`. Here is [why](https://github.com/github/renaming).
 
 ## Instructions for building the book
 
