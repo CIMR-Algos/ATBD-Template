@@ -1,5 +1,7 @@
 # ATBD Template
-A JupyterBook template for CIMR DEVALGO ATBDs
+A JupyterBook template for CIMR DEVALGO ATBDs. This repository holds a template for Algorithm Theoretical Basis Documents (ATBDs) for the ESA-funded DEVALGO project.
+
+**DISCLAIMER: This repository is used for testing and developing jupyterbooks, it does not contain any valuable science.**
 
 ## Fetch and read the book
 If you just want to download the repo and read the book (not building it):
