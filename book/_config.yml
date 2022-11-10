@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: ATBD Template
-author: CIMR Devalgo
+title: CIMR DEVALTO ATBD Template
+author: CIMR DEVALGO team
 logo: logo.jpg
 
 # Force re-execution of notebooks on each build.
@@ -23,6 +23,7 @@ bibtex_bibfiles:
 sphinx:
   config:
     bibtex_reference_style: author_year
+    html_show_copyright: false
 
 
 # Information about where the book exists on the web
@@ -36,3 +37,9 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: true
+  extra_footer: |
+    <p>
+    This ATBD was developed in the context of the ESA-funded CIMR DEVALGO study (2022-2024) (contract 4000137493).
+    <br>
+    ESA is not responsible in any way for the content of this document.
+    </p>
