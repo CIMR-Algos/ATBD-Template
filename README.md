@@ -57,6 +57,37 @@ git add / commit #possibly in two commits, first the changes to the `.md` files,
 git push
 ```
 
+## Instructions for publishing the book (with GitHub pages)
+
+**This requires that the repository is public.**
+
+We follow the instructions on the jupyterbook.org website: https://jupyterbook.org/en/stable/start/publish.html#
+
+Install `ghp-import`:
+```
+conda install -c conda-forge ghp-import
+```
+
+Move to the `book/` subdirectory in your local directory.
+
+Make sure the book HTML is freshly built
+```
+make
+```
+
+Remember to commit and push your edits to the `.md` and the `_build/` files (this pushes to `main` branch).
+
+Run ghp-import
+```
+ghp-import -n -p -f _build/html
+```
+
+This will create a `gh-pages` branch (1st time) and push the new HTML pages to that branch (not `main`).
+
+First time, visit "Settings / Pages" and check that it points at the `gh-pages` branch.
+
+Your book is hosted at https://cimr-algos.github.io/ATBD-Template/
+
 ## Other Resources:
 * [Setting up repos on GitHub](https://kbroman.org/github_tutorial/pages/init.html)
 * [Put your JupyterBook on Github with online webpage (requires Public repo)](https://jupyterbook.org/en/stable/start/publish.html#)
