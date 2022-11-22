@@ -59,4 +59,4 @@ git push
 
 ## Other Resources:
 * [Setting up repos on GitHub](https://kbroman.org/github_tutorial/pages/init.html)
-* [Put your JupyterBook on Github with online webpage (requires Public repo)](https://github.com/pabloinsente/jupyter-book-tutorial)
+* [Put your JupyterBook on Github with online webpage (requires Public repo)](https://jupyterbook.org/en/stable/start/publish.html#)
