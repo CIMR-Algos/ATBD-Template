@@ -43,3 +43,6 @@ html:
     <br>
     ESA is not responsible in any way for the content of this document.
     </p>
+  comments:
+    utterances:
+      repo: "CIMR-Algos/ATBD-Template"
